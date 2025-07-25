@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --font-display: "Inter", "sans-serif";
+    --color-scipred: #A3274F;
+    --color-scipblue: #005A81;}
+
+@layer components {
+  .fade-img::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(to left, #e0f4ff00, #e0f4ff);
+    pointer-events: none;
+  }
+  button:hover{
+    scale: 1.05;
+    transition: scale 0.3s ease-in-out;
+  }
+}

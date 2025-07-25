@@ -15,8 +15,11 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex space-x-8 font-bold text-lg">
-          {['Home', 'Get Involved', 'Careers', 'Events', 'About'].map((label) => (
+        <div className="hidden md:flex space-x-8 font-20px font-display text-lg">
+            <button className="flex items-center gap-1 hover:text-[#005b82]">
+              Home
+            </button>
+          {['Get Involved', 'Careers', 'Events', 'About'].map((label) => (
             <button key={label} className="flex items-center gap-1 hover:text-[#005b82]">
               {label}
               <svg
@@ -32,10 +35,10 @@ const Navbar = () => {
 
         {/* Desktop Buttons */}
         <div className="hidden md:flex space-x-4">
-          <button className="bg-[#005b82] text-white font-bold px-6 py-2 rounded-full hover:bg-[#004466] transition">
+          <button className="bg-scipblue font-inter text-white py-1 hover:bg-[#1f415c] px-10 rounded-xl transition-colors">
             Shop
           </button>
-          <button className="bg-[#9d2252] text-white font-bold px-6 py-2 rounded-full hover:bg-[#851b45] transition">
+          <button className="bg-scipred font-inter text-white py-1 px-10 hover:bg-[#851b45] rounded-xl transition-colors">
             Donate
           </button>
         </div>
