@@ -14,7 +14,7 @@ const Home = () => {
           <h1 className="text-center text-3xl sm:text-4xl font-extrabold text-white mb-4">
             Our Mission <br />
           </h1>
-          <p className="text-center text-20px font-medium  text-white mb-6 px-24">
+          <p className="text-justify text-center text-20px font-medium  text-white mb-6 px-24">
             To "Enlighten, Employ, and Empower" diverse and highly focused students for successful careers. 
             We do this by guiding interns to developing their entrepreneurial mindsets and communicative skills 
             through corporate mentorship, leadership development, and hands-on collaborative team projects.
@@ -67,7 +67,7 @@ const Home = () => {
               <h1 className="text-center mx-3 text-3xl sm:text-4xl font-extrabold text-[#2b4162] mb-4">
                 Who We Look For?
               </h1>
-              <p className="px-30 text-center font-medium text-[#2b4162]">
+              <p className="text-justify px-30 text-center font-medium text-[#2b4162]">
                 SCIP is seeking multicultural, highly driven students to achieve successful careers by developing their entrepreneurial mindsets and communicative skills through corporate mentorship, leadership development, and hands-on collaborative team projects. 
               </p>
             </div>

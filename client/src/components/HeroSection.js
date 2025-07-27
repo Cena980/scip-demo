@@ -7,11 +7,11 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center sm:items-center relative z-10 px-6">
         {/* Left: Text Section */}
         <div className="lg:w-1/2 z-20">
-          <h1 className="text-center text-3xl sm:text-4xl font-extrabold text-[#2b4162] mb-4">
+          <h1 className="text-justify text-center text-3xl sm:text-4xl font-extrabold text-[#2b4162] mb-4">
             Introducing a Brilliant <br />
             <span className="tracking-widest">I n v e s t m e n t :</span>
           </h1>
-          <p className="text-center text-3xl font-extrabold text-[#2b4162] mb-6">
+          <p className="text-center text-justify text-3xl font-extrabold text-[#2b4162] mb-6">
             Young Global Leaders <br />
             Owning Their Power
           </p>

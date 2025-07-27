@@ -12,10 +12,10 @@ const InstagramSection = () => {
   };
 
   return (
-    <section className="relative bg-scipred overflow-hidden p-20 md:p-20">
+    <section className="relative bg-scipred overflow-hidden md:p-15 py-10">
       {/* Header */}
       <div className="grid grid-cols-1 md:grid-cols-[70%_30%] gap-8 items-center px-20">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 text-justify">
           <h1 className="text-left text-3xl font-inter text-white font-extrabold">
             Follow Us on Instagram
           </h1>
@@ -42,7 +42,7 @@ const InstagramSection = () => {
         {/* Left Button */}
         <button
           onClick={scrollLeft}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white p-2 rounded-full shadow-md"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white p-2 mx-2 rounded-full shadow-md"
         >
           <span className="text-2xl text-scipred">←</span>
         </button>
@@ -50,7 +50,7 @@ const InstagramSection = () => {
         {/* Scrollable Image List */}
         <div
           ref={scrollRef}
-          className="flex gap-4 overflow-x-auto scrollbar-hide scroll-smooth px-10"
+          className="flex gap-4 overflow-x-auto scrollbar-hide scroll-smooth px-10 py-5"
         >
           {[
             'https://picsum.photos/id/1015/300/300',
@@ -63,7 +63,7 @@ const InstagramSection = () => {
               key={index}
               src={src}
               alt={`Instagram post ${index + 1}`}
-              className="h-48 w-48 object-cover rounded-lg shadow-md flex-shrink-0"
+              className="h-48 w-48 object-cover rounded-lg shadow-md flex-shrink-0 hover:scale-105 transition-transform duration-300"
             />
           ))}
         </div>
@@ -71,7 +71,7 @@ const InstagramSection = () => {
         {/* Right Button */}
         <button
           onClick={scrollRight}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white p-2 rounded-full shadow-md"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white p-2 mx-2 rounded-full shadow-md"
         >
           <span className="text-2xl text-scipred">→</span>
         </button>

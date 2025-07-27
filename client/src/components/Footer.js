@@ -22,12 +22,32 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Address Section */}
+          {/* middle Section */}
           <div className="md:w-1/3">
-            <h3 className="font-semibold text-lg mb-6">Address</h3>
-            <p>409 Newburgh Court,</p>
-            <p>West New York, NJ 07093</p>
+            <div className="mb-12">
+              <h3 className="font-semibold text-lg mb-6">Address</h3>
+              <p>409 Newburgh Court,</p>
+              <p>West New York, NJ 07093</p>
+            </div>
+            <div className="mb-6 flex gap-4 items-center">
+              <a href="https://instagram.com/scip" target="_blank" rel="noopener noreferrer">
+                <img src="icons/instagram.png" alt="Instagram" className="h-6 w-6 hover:scale-105 transition-transform delay-200" />
+              </a>
+              <a href="https://facebook.com/scip" target="_blank" rel="noopener noreferrer">
+                <img src="icons/facebook.png" alt="Facebook" className="h-6 w-6 hover:scale-105 transition-transform delay-200" />
+              </a>
+              <a href="https://twitter.com/scip" target="_blank" rel="noopener noreferrer">
+                <img src="icons/x.png" alt="Twitter/X" className="h-6 w-6 hover:scale-105 transition-transform delay-200" />
+              </a>
+              <a href="https://youtube.com/scip" target="_blank" rel="noopener noreferrer">
+                <img src="icons/youtube.png" alt="YouTube" className="h-6 w-6 hover:scale-105 transition-transform delay-200" />
+              </a>
+              <a href="https://tiktok.com/scip" target="_blank" rel="noopener noreferrer">
+                <img src="icons/tiktok.png" alt="TikTok" className="h-6 w-6 hover:scale-105 transition-transform delay-200" />
+              </a>
+            </div>
           </div>
+
 
           {/* Quick Navigation Section */}
           <div className="md:w-1/3">
